@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         registerBtn = findViewById(R.id.btnRegister);
 
         registerBtn.setOnClickListener(new View.OnClickListener() {
-
+            @Override
             public void onClick(View v) {
                 String data = "Patient Registered:\n"
                         + "Name: " + name.getText().toString() + "\n"
