@@ -13,7 +13,7 @@ import com.example.hospitalregistrationform.R;
 public class MainActivity extends AppCompatActivity {
 
     EditText name, age, gender, address, phone;
-    Button registerBtn;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
