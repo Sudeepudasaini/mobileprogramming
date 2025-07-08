@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.hospitalregistrationform.R;
 
 public class MainActivity extends AppCompatActivity {
-    Button registerBtn;
+
     EditText name, age, gender, address, phone;
 
 
