@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
     EditText name, age, gender, address, phone;
 
-    Button registerBtn;
+    registerBtn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
