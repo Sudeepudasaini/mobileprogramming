@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         name= findViewById(R.id.etName);
         age = findViewById(R.id.etAge);
         gender = findViewById(R.id.etGender);
-        = findViewById(R.id.etAddress);
+        address= findViewById(R.id.etAddress);
         phone = findViewById(R.id.etPhone);
         registerBtn = findViewById(R.id.btnRegister);
 
