@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         name= findViewById(R.id.etName);
-       = findViewById(R.id.etAge);
+        age= findViewById(R.id.etAge);
         gender= findViewById(R.id.etGender);
         address= findViewById(R.id.etAddress);
         phone = findViewById(R.id.etPhone);
