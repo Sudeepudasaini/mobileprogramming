@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         age= findViewById(R.id.etAge);
         gender = findViewById(R.id.etGender);
         address= findViewById(R.id.etAddress);
-        phone = findViewById(R.id.etPhone);
+       = findViewById(R.id.etPhone);
         registerBtn = findViewById(R.id.btnRegister);
 
         registerBtn.setOnClickListener(new View.OnClickListener() {
