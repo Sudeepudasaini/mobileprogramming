@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                         + "Address: " + address.getText().toString() + "\n"
                         + "Phone: " + phone.getText().toString();
 
-               .makeText(MainActivity.this, data, Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, data, Toast.LENGTH_LONG).show();
             }
         });
     }
