@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
                         + "Name: " + name.getText().toString() + "\n"
                         + "Age: " + age.getText().toString() + "\n"
                         + "Gender: " + gender.getText().toString() + "\n"
-                        + ": " + address.getText().toString() + "\n"
+                        + "Address: " + address.getText().toString() + "\n"
                         + "Phone: " + phone.getText().toString();
 
                 Toast.makeText(MainActivity.this, data, Toast.LENGTH_LONG).show();
